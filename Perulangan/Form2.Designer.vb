@@ -52,6 +52,7 @@ Partial Class Form2
         '
         Me.pilihanCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pilihanCombo.FormattingEnabled = True
+        Me.pilihanCombo.Items.AddRange(New Object() {"Pyramid", "Hollow Pyramid", "Inverted Pyramid", "Inverted Hollow Pyramid"})
         Me.pilihanCombo.Location = New System.Drawing.Point(86, 16)
         Me.pilihanCombo.Name = "pilihanCombo"
         Me.pilihanCombo.Size = New System.Drawing.Size(353, 21)
@@ -77,6 +78,7 @@ Partial Class Form2
         '
         'hasilText
         '
+        Me.hasilText.Font = New System.Drawing.Font("Courier New", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hasilText.Location = New System.Drawing.Point(33, 88)
         Me.hasilText.Multiline = True
         Me.hasilText.Name = "hasilText"

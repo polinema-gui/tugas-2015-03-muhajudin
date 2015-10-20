@@ -125,7 +125,4 @@ Label_005D:
         Return bintang
     End Function
 
-    Private Sub pilihanCombo_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pilihanCombo.SelectedIndexChanged
-
-    End Sub
 End Class
